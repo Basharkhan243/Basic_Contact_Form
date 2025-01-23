@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Responsive Web design For the purpose of contact other user through message">
+    <meta name="keywords" content="Contact Form">
+    <title>Contact Form | @contact</title>
+    <link rel="stylesheet" href="contact_form.css">
+</head>
+<body>
+
+    <div class="parent_container">
+        <h1>Contact Form</h1>
+
+            <form action="contact_form.php">
+
+                <label for="fname" class="contact_label">First Name: </label>
+                <input type="text" name="fname" class="contact_input" placeholder="First name...." required>
+
+                <br>
+
+                <label for="lname" class="contact_label">Last Name: </label>
+                <input type="text" name="lname" class="contact_input" placeholder="Last name...." required >
+
+                <br>
+
+                <label for="message" class="contact_label" >Message: </label>
+                <br>
+                <textarea name="Message" maxlength="1000" class="contact_input" placeholder="Message here...."></textarea>
+                <br>
+
+                <p id="Submit_btn">Submit</p>
+
+            </form>
+    </div>
+
+
+    
+</body>
+</html>
